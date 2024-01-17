@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.black, //scaffold background color
         appBar: AppBar(
             backgroundColor: Colors.black, //app bar backkground color
-            shadowColor: Colors.yellow, //create a shadow color for the app bar
+            shadowColor: Colors.white38, //create a shadow color for the app bar
             elevation: 4, //Size of the shadow
             title: const Text(
               'BLACK HOLE',
@@ -78,7 +78,7 @@ class MyApp extends StatelessWidget {
                   onTap: () {},
                   child: Center(
                     child: Container(
-                      padding: const EdgeInsets.all(15),
+                      padding: const EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(100),
                         color: Colors.red,
@@ -96,7 +96,8 @@ class MyApp extends StatelessWidget {
                 //Second screen
                 const SizedBox(height: 20),
                 Center(
-                  child: Image.asset("Assets/space2.png", height: 300),
+                  child:
+                      Image.asset("Assets/space2.png", height: 300, scale: 3),
                 ),
 
                 const Text(
@@ -105,6 +106,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.white,
                     fontWeight: FontWeight.w400,
                   ),
+                  //textAlign: TextAlign.center,
                 ),
                 Padding(
                   padding: const EdgeInsets.all(30),
@@ -151,7 +153,85 @@ class MyApp extends StatelessWidget {
 
                 //Third screen----------------------------------
 
-                Image.asset("Assets/space3.png", height: 300),
+                Center(
+                    child: Image.asset("Assets/space3.png",
+                        height: 300, scale: 3)),
+                const SizedBox(
+                  height: 30,
+                ),
+                const Text(
+                  "Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed.",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w400,
+                  ),
+                  //textAlign: TextAlign.center,
+                ),
+                const SizedBox(
+                  height: 30,
+                ),
+
+                GestureDetector(
+                  onTap: () {},
+                  child: Center(
+                    child: Container(
+                      padding: const EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(100),
+                      ),
+                      child: const Text(
+                        "SPACE DETAILS",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w400,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 30,
+                ),
+
+                //footer
+
+                Center(
+                  child: Container(
+                    height: 2,
+                    width: 400,
+                    decoration: const BoxDecoration(
+                      color: Colors.white30,
+                    ),
+                  ),
+                ),
+
+                const SizedBox(
+                  height: 10,
+                ),
+
+                const Text(
+                  "SPACE HOLE",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w500,
+                    fontSize: 22,
+                  ),
+                ),
+
+                const SizedBox(
+                  height: 20,
+                ),
+                const Text(
+                  "Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed.",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w400,
+                  ),
+                ),
+                const SizedBox(
+                  height: 30,
+                ),
               ],
             ),
           ),
