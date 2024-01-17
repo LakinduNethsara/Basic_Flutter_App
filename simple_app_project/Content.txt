@@ -11,3 +11,5 @@ scale and size of the image change
 column alignment
 sized box
 Text ailgn
+Main axis alignment spapce around
+Created a row
