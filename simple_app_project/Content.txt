@@ -1,0 +1,15 @@
+background color
+shadow color
+shadow size
+text
+text style
+font weight
+font size
+Menu icon / hamburger icon
+Assets / images
+scale and size of the image change
+column alignment
+sized box
+Text ailgn
+Main axis alignment spapce around
+Created a row
