@@ -13,3 +13,4 @@ sized box
 Text ailgn
 Main axis alignment spapce around
 Created a row
+Gesture detection for buttons
